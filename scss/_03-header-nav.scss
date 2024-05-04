@@ -1,0 +1,113 @@
+//---------------------ESTILOS HEADER----------------------------//
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: transparent;
+  // font-family: "Amatic SC", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+  //  text-transform: uppercase;
+  padding: 0px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+  font-size: x-large;
+  // font-weight: bolder;
+}
+
+.navbar-nav .nav-link {
+  text-align: center;
+  /* Centra horizontalmente */
+}
+
+/* Estilos para el enlace del menú al pasar el mouse */
+.menu-link:hover {
+  color: rgb(205, 146, 146);
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item.active .nav-link:hover {
+  color: rgb(255, 255, 255);
+  /* Color del texto activo y al pasar el mouse */
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+  // background-color: rgba(30, 2, 2, 0.449);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border: 1px solid rgba(243, 206, 171, 0.474);
+  border-radius: 20px;
+  // box-shadow: 0 0 20px rgb(245, 179, 179);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Estilos para la imagen dentro del botón del menú hamburguesa en pantallas pequeñas */
+.menu-logo {
+  width: 50%;
+  height: auto;
+}
+
+
+/* Estilos para el botón de menú hamburguesa */
+.navbar-toggler .navbar-toggler-icon {
+  background-color: rgba(255, 170, 0, 0.78);
+  border-radius: 1px;
+}
+
+.navbar-toggler {
+  position: relative;
+  /* Establece el posicionamiento absoluto */
+  top: 50%;
+  /* Coloca el botón en la mitad superior del contenedor */
+  left: 50%;
+  /* Coloca el botón en la mitad izquierda del contenedor */
+  transform: translate(-50%, -50%);
+  /* Centra el botón tanto horizontal como verticalmente */
+  background-color: transparent;
+  // border: 1px rgba(0, 255, 255, 0.689) solid;
+  margin-top: 35px;
+  padding: 0px;
+}
+
+/* Ajustes para la imagen dentro del botón del menú hamburguesa en pantallas más pequeñas */
+.navbar-toggler .menu-logo {
+  width: 30%;
+  /* Ajusta el ancho de la imagen al 100% del tamaño del botón */
+  height: auto;
+  /* Ajusta la altura automáticamente */
+}
+
+/* Estilos para la imagen al costado del menú hamburguesa */
+.side-icon {
+  width: 70px;
+  /* Ajusta el ancho de la imagen */
+  height: auto;
+  /* Ajusta la altura automáticamente */
+  position: sticky;
+  /* Posiciona la imagen */
+}
+
+/* Estilos para la imagen en el header */
+.imagenHeader1 {
+  width: 35%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+
+}
+
+/* Estilos para la imagen en el header */
+.imagenHeader1:hover {
+  width: 35%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  animation: shake 0.5s ease;
+}

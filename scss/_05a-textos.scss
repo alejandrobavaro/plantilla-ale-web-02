@@ -1,0 +1,103 @@
+//----------------------TITULOS IMPORTANTES-----------------------//
+.h1Titulo {
+    font-size: xx-large;
+    color: rgba(255, 228, 196, 0.826);
+    // font-weight: bold;
+    text-transform: uppercase;
+    // border: 1px solid rgba(245, 222, 179, 0.482);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.tituloImportante1 {
+    color: rgba(255, 255, 255, 0.857);
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tituloImportante2 {
+    color: #c4b29c;
+    border: 2px rgba(255, 255, 255, 0.237) dotted;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding: 1px;
+}
+
+.tituloImportante3 {
+    color: rgba(255, 201, 119, 0.857);
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tituloImportante4 {
+    color: rgba(252, 223, 131, 0.706);
+    font-size: x-large;
+    // font-weight: bold;
+    // text-transform: uppercase;
+}
+//------------------------------------------------//
+
+
+//---------------TEXTOS CENTRADOS-------------------//
+.textoCentrado1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+//------------------------------------------------//
+
+
+//-----------TITULOS PEQUEÑOS-----------------//
+
+.tituloPequeño {
+    color: rgb(0, 0, 0);
+    font-size: medium;
+}
+
+.tituloPequeño1 {
+    color: rgb(241, 235, 200);
+    font-size: x-small;
+}
+
+.tituloPequeño2 {
+    color: rgba(106, 230, 205, 0.689);
+    font-size: small;
+}
+
+.tituloPequeño3 {
+    color: rgba(210, 153, 54, 0.689);
+    font-size: small;
+}
+
+
+.tituloPequeño4 {
+    color: rgb(234, 192, 67);
+    font-size: xx-small;
+}
+
+.text-muted1 {
+    color: wheat;
+}
+
+//-----------------------------------------------//
+
+
+
+//--------------CONTACTO TEXTOS ESTILOS--------------------//
+.estiloTextoContacto1 {
+    font-size: large;
+    font-family: "Caveat", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .estiloContacto1 a {
+color: rgb(217, 201, 156);
+  }
+//-----------------------------------------------//
+

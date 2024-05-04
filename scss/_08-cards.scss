@@ -1,0 +1,73 @@
+//-----------------CARDS-TARJETAS-------------------//
+
+//-----------------CARDS--------------------------//
+.card {
+  text-align: justify;
+  background: rgba(27, 140, 130, 0.039);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.427);
+  // box-shadow: 0 0 5px rgb(255, 166, 0);
+}
+
+.card1 {
+  text-align: justify;
+  // background: rgba(10, 174, 160, 0.229);
+  color: rgb(255, 255, 255);
+  // border-radius: 20px;
+  // border: 1px solid rgb(255, 255, 255);
+}
+
+.card2 {
+  font-size: small;
+  font-weight: bold;
+  border: 1px dotted white;
+  border-radius: 20px;
+}
+
+.card3 {
+  font-size: medium;
+  font-weight: bold;
+
+}
+
+.card4 {
+  background: linear-gradient(rgba(255, 255, 255, 0.16), rgba(255, 0, 0, 0.122));
+  border-radius: 20px;
+  font-size: xx-small;
+  padding: 10px;
+  // border: 1px rgba(0, 255, 255, 0.419) solid;
+}
+
+//-----------------CARDS-TITLE--------------------------//
+.card-title {
+  color: rgba(249, 246, 156, 0.627);
+  text-transform: uppercase;
+  font-size: xx-small;
+  text-align: center;
+}
+
+.card-title1 {
+  color: rgba(167, 156, 249, 0.86);
+  // text-transform: uppercase;
+  font-size: small;
+  text-align: center;
+}
+
+.card-title2 {
+  text-transform: normal;
+  font-size: medium;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px;
+  background-color: transparent;
+}
+
+.card-container {
+  display: flex;
+  // flex-direction: row; /* Cambiar la dirección principal a fila */
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,138 @@
+//------------------------BOTONES-ESTILOS-------------------------//
+
+/* Estilos para el botón de enviar del formulario */
+.botonEnviar {
+  background-color: #56565649;
+  color: #ffffff;
+  border: none;
+  font-size: medium;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+.botonEnviar:hover {
+  color: rgb(233, 219, 130);
+  background-color: rgba(88, 82, 82, 0.352);
+}
+
+
+/*----------------Botón Comprar----------------*/
+.botonComprar {
+  background-color: #636767;
+  color: rgba(255, 255, 255, 0.665);
+  border: none;
+  border-radius: 10px;
+ }
+
+.botonComprar:hover {
+  background-color: rgba(95, 96, 96, 0.563);
+  color: #ffffff;
+  border: none;
+}
+
+/*----------------Botón Pagar----------------*/
+.botonPagar {
+  background-color: #e2d9a4c4;
+  border: none;
+  border-radius: 10px;
+}
+
+.botonPagar:hover {
+  background-color: #69625784;
+  border: none;
+  border-radius: 10px;
+}
+
+/*----------------Botón "Vaciar Carrito"----------------*/
+#btnVaciarCarrito {
+  background-color: #72562973;
+  color: rgba(254, 254, 232, 0.665);
+  border: none;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+#btnVaciarCarrito:hover {
+  background-color: rgba(156, 48, 77, 0.563);
+  color: #ffffff;
+}
+
+/*----------------Botón Encargar----------------*/
+.botonEncargar {
+  padding: 8px 16px;
+  font-size: small;
+  border: none;
+  border-radius: 10px;
+  background-color: #cd8f2b9d;
+  color: rgba(254, 254, 232, 0.665);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
+}
+
+.botonEncargar:hover {
+  background-color: rgba(156, 156, 48, 0.754);
+  color: #ffffff;
+  border: none;
+}
+
+/*----------------Boton Seguir comprando----------------*/
+.botonSeguirComprando1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+  background-color: #296c7273;
+  color: rgba(254, 254, 232, 0.665);
+}
+
+.botonSeguirComprando1:hover {
+  background-color: rgba(156, 100, 48, 0.563);
+  color: #ffffff;
+  border: none;
+}
+
+/*----------------Botón de eliminar----------------*/
+.botonEliminar {
+  padding: 8px 16px;
+  font-size: small;
+  border: none;
+  border-radius: 10px;
+  background-color: #4d4b1693;
+  color: rgba(254, 254, 232, 0.665);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  // float: right;
+  margin-top: 10px;
+}
+
+.botonEliminar:hover {
+  background-color: rgba(156, 122, 48, 0.563);
+  color: #ffffff;
+  border: none;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: small;
+  border: none;
+  border-radius: 10px;
+  background-color: #4d4b1693;
+  color: rgba(254, 254, 232, 0.665);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  // float: right;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: rgba(156, 122, 48, 0.563);
+  color: #ffffff;
+  border: none;
+  animation: shake 0.5s ease;
+}

@@ -1,0 +1,71 @@
+/*---------------------------------GRID---------------------------------------*/
+
+.gridPadre {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1168px;
+  border: 1px solid rgba(0, 255, 255, 0.101);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.gridPadreCarrito1 {
+  display: grid;
+  grid-template-columns: auto; /* Solo una columna */
+  grid-auto-flow: row; /* Flujo automático en filas */
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1168px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+
+.gridPadreCarrito2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1168px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 255, 255, 0.21);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.gridPadreCarrito3 {
+  margin-top: 20px;
+}
+
+.gridPadreCarrito4 {
+  display: flex;
+  flex-direction: row;
+  /* Mostrar elementos en filas */
+  flex-wrap: wrap;
+  /* Permitir que se envuelvan en varias filas */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1168px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 255, 255, 0.21);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+
+.row-cols-md-4 {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.col-md-4 {
+  flex: 0 0 25%; /* Establece el ancho de cada elemento para que haya 4 elementos por fila */
+  max-width: 25%; /* Establece el ancho máximo de cada elemento */
+}

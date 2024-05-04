@@ -1,0 +1,94 @@
+html {
+  font-size: 100%;
+  margin-top: 0;
+}
+
+//-------------------------ESTILOS BODY----------------------------//
+body {
+  background: rgb(63, 4, 4);
+  background-image: url(../img/00-fondos/fondo1.png); /* Imagen de fondo */
+  background-repeat:no-repeat; /* No repetir la imagen de fondo */
+  background-position: center; /* Posición de la imagen de fondo */
+  background-size:cover; /* Ajusta la imagen al tamaño del body */
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  // font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+//---------------ESTILOS GENERALES P-H1/H6---------------------//
+p {
+  color: rgb(241, 225, 192);
+   font-size: medium;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+     font-size: x-large;
+     }
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+h3 {
+  color: rgb(224, 205, 190);
+  font-size: medium;
+}
+
+h4 {
+  color: #e3baa5;
+  font-size: small;
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+  font-size: x-small;
+}
+
+/* Estilos para los títulos h6 */
+h6 {
+  // color: rgba(174, 218, 216, 0.766);
+  font-size: xx-small;
+}
+//----------------------------------------------------------------//
+
+
+//---------------ESTILOS LISTAS---------------------//
+li {
+  list-style-type: none;
+}
+
+/* Estilos para las listas ordenadas */
+ol {
+  list-style-type: circle;
+}
+//----------------------------------------------------------------//
+
+
+//---------------ESTILOS LINKS ENLACES---------------------//
+a {
+
+  /* Enlace sin visitar */
+  &:link {
+    color: rgb(243, 206, 19);
+      text-decoration: none;
+    /* Sin subrayado */
+  }
+
+
+  /* Enlace visitado */
+  &:visited {
+    color: rgb(243, 189, 71);
+    text-decoration: none;
+    /* Sin subrayado */
+  }
+}
+
+
+  /* Enlace sin visitar */
+  a:hover {
+    animation: shake 0.5s ease;
+  }
+
+//----------------------------------------------------------------//

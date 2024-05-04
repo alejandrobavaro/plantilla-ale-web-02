@@ -1,0 +1,24 @@
+//------------------------ALERTAS -TOASTYS-------------------------//
+
+
+//TOSTIFY
+/* Estilos personalizados para el Toastify */
+
+
+/* Clase para el mensaje de Toastify */
+.toastify-total {
+  background-color: #8e7700c0; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 16px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  font-size: 16px; /* Tamaño de fuente */
+  font-weight: bold; /* Peso de la fuente */
+}
+
+/* Estilos para los botones del mensaje Toastify */
+.toastify-total .toastify-close {
+  color: #fff; /* Color del botón */
+  font-size: 14px; /* Tamaño de fuente */
+  font-weight: bold; /* Peso de la fuente */
+}

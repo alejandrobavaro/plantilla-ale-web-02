@@ -1,0 +1,32 @@
+//---------------------ESTILOS FOOTER----------------------------//
+
+/* Estilos para el pie de página */
+footer {
+  // font-family: 'Times New Roman', Times, serif;
+  font-size: x-small;
+  padding: 10%;
+  border-radius: 30px;
+  color: rgb(209, 207, 207);
+  margin: 0;
+  width: 40%;
+}
+
+/* Estilos para los elementos del pie de página */
+.footerElements {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Estilos para los enlaces en el pie de página */
+.linksFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5rem;
+}
+
+/* Estilos para los elementos de lista en el pie de página */
+.linksFooter div {
+  list-style: none;
+}

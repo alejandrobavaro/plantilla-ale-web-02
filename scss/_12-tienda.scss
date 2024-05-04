@@ -1,0 +1,109 @@
+//------------------------TIENDA-ESTILOS-------------------------//
+
+.tituloPrecio1 {
+  // text-decoration: underline;
+  color: rgba(255, 221, 0, 0.825);
+  font-size: medium;
+}
+
+.tituloPrecioCarrito {
+  text-decoration: dotted;
+  color: rgb(172, 45, 22);
+  font-size: xx-large;
+}
+
+//------------------------MINI CARRITO COMPRAS-------------------------//
+.mini-carrito {
+  // border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 40px wheat;
+}
+
+.mini-carrito2 {
+  // border: 1px solid rgba(255, 255, 255, 0.406);
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 5px wheat;
+  padding: 20px;
+}
+
+.listaMiniCarrito3 {
+  background-color: transparent;
+  box-shadow: 0 0 2px wheat;
+  color: white;
+  padding: 10px;
+}
+
+//-----------------SELECTOR DENTRO DE PRODUCTO TALLE-COLOR------------------//
+.form-select {
+  background-color: #616359a9;
+  color: rgba(255, 191, 0, 0.668);
+  border: none;
+  padding: 0px;
+}
+
+/* Estilos para centrar y cambiar el color de fondo de las opciones de los selects */
+select.form-select option {
+  text-align: center;
+  background-color: #3e2c00;
+  color: rgb(255, 255, 255);
+}
+
+
+//-------------------------------------------------------//
+
+/* Estilos generales */
+
+/* Estilos del menú lateral */
+.sidebar {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  color: #00FF7F; /* Verde jade */
+}
+
+/* Estilos del banner de publicidad */
+.banner {
+  margin: 20px 0;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+/* Estilos de la cuadrícula de productos */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.product-card .promotion {
+  background-color: aqua; /* Gama similar a aqua */
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 3px;
+}

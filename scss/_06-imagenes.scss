@@ -1,0 +1,98 @@
+//---------------ESTILO IMAGENES-----------------------//
+
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada1 {
+  width: 80%;
+  height: auto;
+  border: 1px solid rgba(245, 222, 179, 0.434);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada2 {
+  width: 40%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  border: none;
+  /* Borde */
+  border-radius: 20px;
+  /* Radio del borde */
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada3 {
+  width: 35%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  border: none;
+  /* Borde */
+  border-radius: 20px;
+  /* Radio del borde */
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada4 {
+  width: 15%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  border: none;
+  /* Borde */
+  border-radius: 20px;
+  /* Radio del borde */
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada5 {
+  width: 30%;
+  /* Ancho por defecto */
+  height: auto;
+  /* Altura automática */
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada6 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+  transition: 1s;
+}
+//-----------------------------------------------------------------/
+
+
+//-------------------ESTILOS GIF-----------------------------/
+.gif-limitado1 {
+  width: 40%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  border: rgba(156, 223, 202, 0.592) 10px solid;
+  /* Borde */
+  border-radius: 20px;
+  /* Radio del borde */
+  padding: 0px;
+  margin-bottom: 0px;
+}
+//-----------------------------------------------------------------/
+
+
+
+
+
+
+//-------------------LOGO WHATSAPP FLOTANTE------------------------------/
+.logoWhats {
+  width: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+//-----------------------------------------------------------------/
+

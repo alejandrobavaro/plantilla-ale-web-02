@@ -1,0 +1,207 @@
+//---------------------AJUSTES RESPONSIVOS----------------------------//
+
+//------------------AJUSTES RESPONSIVE MENU NAV -------------------//
+@media (max-width: 991.98px) {
+  .navbar-nav {
+      margin-top: 1rem; /* Espacio adicional en la parte superior del menú para evitar superposiciones */
+      flex-direction: column; /* Cambia la dirección de los elementos del menú a columna */
+      text-align: center; /* Centra los elementos del menú cuando se coloca en una columna */
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0; /* Elimina el espacio adicional entre elementos del menú en dispositivos móviles */
+    padding-left: 0; /* Elimina el espacio adicional entre elementos del menú en dispositivos móviles */
+    font-size: 18px; /* Tamaño de fuente para el menú principal */
+}
+}
+//----------------------------------------------------------------------------//
+
+
+/*---------------------------AJUSTES RESPONSIVE FOOTER---------------------*/
+/* Para pantallas menores o iguales a 420px */
+@media screen and (max-width: 420px) {
+  .linksFooter div {
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+  }
+}
+
+/* Para pantallas entre 421px y 767px */
+@media screen and (min-width: 421px) and (max-width: 767px) {
+  .linksFooter div {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+/* Para pantallas menores o iguales a 767px */
+@media screen and (max-width: 767px) {
+  .footerElements {
+    flex-direction: column;
+  }
+
+  .linksFooter {
+    flex-direction:column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .img2Footer {
+    display: none;
+  }
+  
+
+  .img1Footer img {
+    max-height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+//IMAGEN FOOTER TAMAÑO PARA MOBILE// 
+
+/* Media query para pantallas menores o iguales a 767px */
+@media screen and (max-width: 767px) {
+  .imagen-limitada2 {
+    width: 100%; /* Establecer el ancho al 100% para ocupar el ancho del contenedor */
+    max-width: 30px; /* Establecer un tamaño máximo para la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+}
+
+//-------------------------------------------------------// 
+
+// /* Ajustes para el título (h1Titulo) en pantallas menores o iguales a 768px */
+// @media (max-width: 768px) {
+//   .h1Titulo {
+//     font-size: 1.2em;
+//   }
+// }
+
+// /* Ajustes para el número de teléfono (telefonoWhattsapp) en diferentes tamaños de pantalla */
+
+// /* Para pantallas menores o iguales a 992px */
+// @media (max-width: 992px) {
+//   #telefonoWhattsapp {
+//     font-size: 1em;
+//   }
+// }
+
+// /* Para pantallas menores o iguales a 768px */
+// @media (max-width: 768px) {
+//   #telefonoWhattsapp {
+//     font-size: 1.2em;
+//   }
+// }
+
+// // Ajustes para textos en diferentes tamaños de pantalla
+
+// /* Para pantallas menores o iguales a 600px */
+// @media only screen and (max-width: 600px) {
+//   h1 {
+//     font-size: medium;
+//   }
+
+//   h2 {
+//     font-size: small;
+//   }
+
+//   p {
+//     font-size: small;
+//   }
+// }
+
+// // Ajustes para el menú de navegación (nav) en diferentes tamaños de pantalla
+
+// /* Para pantallas menores o iguales a 600px */
+// @media only screen and (max-width: 600px) {
+//   .navBar {
+//     font-size: large;
+//   }
+
+//   .navBardrop1 {
+//     font-size: large;
+//   }
+
+//   .navBardrop2 {
+//     font-size: medium;
+    
+//   }
+
+ 
+  
+// }
+
+// // Ajustes para botones en diferentes tamaños de pantalla
+
+// /* Para pantallas menores o iguales a 600px */
+// @media only screen and (max-width: 600px) {
+//   .botonEnviar {
+//     font-size: 14px;
+//   }
+
+//   .botonComprar {
+//     font-size: 14px;
+//   }
+// }
+
+// /* Para pantallas menores o iguales a 768px */
+// @media only screen and (max-width: 768px) {
+//   .carruselContainer {
+//     display: none;
+//   }
+// }
+
+
+
+// //Ajuste clase item//
+// /* Ajuste para dispositivos móviles */
+// @media (max-width: 768px) {
+//   .item img {
+//       max-width: 80%; /* Porcentaje del ancho del contenedor */
+//   }
+// }
+
+
+// @media (max-width: 991.98px) {
+//   .imagenHeader1 {
+//     display: none; /* Oculta la imagen en pantallas más pequeñas */
+//   }
+// }
+
+
+
+
+// /* Media query para dispositivos de escritorio */
+// @media only screen and (max-width: 992px) {
+//   .estiloFormulario {
+//     width: 70%; /* Cambia el ancho del formulario en dispositivos de escritorio */
+//   }
+// }
+
+// /* Media query para dispositivos móviles */
+// @media only screen and (max-width: 767px) {
+//   .estiloFormulario {
+//     width: 80%; /* Establece el ancho del formulario al 100% en dispositivos móviles */
+//     padding: 20px; /* Ajusta el relleno para dispositivos móviles */
+//   }
+// }
+
+
+
+
+
+// /* Media query para dispositivos con un ancho máximo de 992px (escritorio) */
+// @media only screen and (max-width: 992px) {
+//   .imagen-limitada5 {
+//     width: 50%; /* Ancho al 100% en dispositivos de escritorio */
+//   }
+// }
+
+// /* Media query para dispositivos con un ancho máximo de 767px (móvil) */
+// @media only screen and (max-width: 767px) {
+//   .imagen-limitada5 {
+//     width: 80%; /* Ancho al 50% en dispositivos móviles */
+//   }
+// }
+

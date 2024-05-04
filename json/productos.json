@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "nombre": "Producto 1",
+      "precio": 1000,
+      "imagen": "../img/06-tienda/tienda1-.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Producto 2",
+      "precio": 2000,
+      "imagen": "../img/06-tienda/tienda2-.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Producto 3",
+      "precio": 3000,
+      "imagen": "../img/06-tienda/tienda3-.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Producto 4",
+      "precio": 4000,
+      "imagen": "../img/06-tienda/tienda4-.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Producto 5",
+      "precio": 5000,
+      "imagen": "../img/06-tienda/tienda5-.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Producto 6",
+      "precio": 6000,
+      "imagen": "../img/06-tienda/tienda6-.png"
+    },
+    {
+      "id": 7,
+      "nombre": "Producto 7",
+      "precio": 7000,
+      "imagen": "../img/06-tienda/tienda7-.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Producto 8",
+      "precio": 8000,
+      "imagen": "../img/06-tienda/tienda8-.png"
+    },
+    {
+      "id": 9,
+      "nombre": "Producto 9",
+      "precio": 9000,
+      "imagen": "../img/06-tienda/tienda9-.png"
+    },
+    {
+      "id": 10,
+      "nombre": "Producto 10",
+      "precio": 10000,
+      "imagen": "../img/06-tienda/tienda10-.png"
+    },
+    {
+      "id": 11,
+      "nombre": "Producto 11",
+      "precio": 11000,
+      "imagen": "../img/06-tienda/tienda11-.png"
+    },
+    {
+      "id": 12,
+      "nombre": "Producto 12",
+      "precio": 12000,
+      "imagen": "../img/06-tienda/tienda12-.png"
+    }
+  ]
+  

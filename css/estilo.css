@@ -1,0 +1,935 @@
+@charset "UTF-8";
+/*---------------------SASS A CSS------------------------*/
+/* Estilos de ajustes responsive*/
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-top: 1rem; /* Espacio adicional en la parte superior del menú para evitar superposiciones */
+    flex-direction: column; /* Cambia la dirección de los elementos del menú a columna */
+    text-align: center; /* Centra los elementos del menú cuando se coloca en una columna */
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0; /* Elimina el espacio adicional entre elementos del menú en dispositivos móviles */
+    padding-left: 0; /* Elimina el espacio adicional entre elementos del menú en dispositivos móviles */
+    font-size: 18px; /* Tamaño de fuente para el menú principal */
+  }
+}
+/*---------------------------AJUSTES RESPONSIVE FOOTER---------------------*/
+/* Para pantallas menores o iguales a 420px */
+@media screen and (max-width: 420px) {
+  .linksFooter div {
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+  }
+}
+/* Para pantallas entre 421px y 767px */
+@media screen and (min-width: 421px) and (max-width: 767px) {
+  .linksFooter div {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+/* Para pantallas menores o iguales a 767px */
+@media screen and (max-width: 767px) {
+  .footerElements {
+    flex-direction: column;
+  }
+  .linksFooter {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .img2Footer {
+    display: none;
+  }
+  .img1Footer img {
+    max-height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+/* Media query para pantallas menores o iguales a 767px */
+@media screen and (max-width: 767px) {
+  .imagen-limitada2 {
+    width: 100%; /* Establecer el ancho al 100% para ocupar el ancho del contenedor */
+    max-width: 30px; /* Establecer un tamaño máximo para la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+}
+/* Estilos del Body*/
+html {
+  font-size: 100%;
+  margin-top: 0;
+}
+
+body {
+  background: rgb(63, 4, 4);
+  background-image: url(../img/00-fondos/fondo1.png); /* Imagen de fondo */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-position: center; /* Posición de la imagen de fondo */
+  background-size: cover; /* Ajusta la imagen al tamaño del body */
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+p {
+  color: rgb(241, 225, 192);
+  font-size: medium;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+h3 {
+  color: rgb(224, 205, 190);
+  font-size: medium;
+}
+
+h4 {
+  color: #e3baa5;
+  font-size: small;
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+  font-size: x-small;
+}
+
+/* Estilos para los títulos h6 */
+h6 {
+  font-size: xx-small;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Estilos para las listas ordenadas */
+ol {
+  list-style-type: circle;
+}
+
+a {
+  /* Enlace sin visitar */
+  /* Enlace visitado */
+}
+a:link {
+  color: rgb(243, 206, 19);
+  text-decoration: none;
+  /* Sin subrayado */
+}
+a:visited {
+  color: rgb(243, 189, 71);
+  text-decoration: none;
+  /* Sin subrayado */
+}
+
+/* Enlace sin visitar */
+a:hover {
+  animation: shake 0.5s ease;
+}
+
+/* Estilos del Main */
+.objetoCentrado {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Centra los elementos verticalmente */
+  margin-top: 0px;
+}
+
+.objetoCentrado1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.objetoCostadoDerecho1 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.item img {
+  min-width: 250px;
+  width: 75%;
+  height: auto;
+}
+
+/* Estilos del Header-NAV*/
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: transparent;
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 0px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+  font-size: x-large;
+}
+
+.navbar-nav .nav-link {
+  text-align: center;
+  /* Centra horizontalmente */
+}
+
+/* Estilos para el enlace del menú al pasar el mouse */
+.menu-link:hover {
+  color: rgb(205, 146, 146);
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item.active .nav-link:hover {
+  color: rgb(255, 255, 255);
+  /* Color del texto activo y al pasar el mouse */
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Estilos para la imagen dentro del botón del menú hamburguesa en pantallas pequeñas */
+.menu-logo {
+  width: 50%;
+  height: auto;
+}
+
+/* Estilos para el botón de menú hamburguesa */
+.navbar-toggler .navbar-toggler-icon {
+  background-color: rgba(255, 170, 0, 0.78);
+  border-radius: 1px;
+}
+
+.navbar-toggler {
+  position: relative;
+  /* Establece el posicionamiento absoluto */
+  top: 50%;
+  /* Coloca el botón en la mitad superior del contenedor */
+  left: 50%;
+  /* Coloca el botón en la mitad izquierda del contenedor */
+  transform: translate(-50%, -50%);
+  /* Centra el botón tanto horizontal como verticalmente */
+  background-color: transparent;
+  margin-top: 35px;
+  padding: 0px;
+}
+
+/* Ajustes para la imagen dentro del botón del menú hamburguesa en pantallas más pequeñas */
+.navbar-toggler .menu-logo {
+  width: 30%;
+  /* Ajusta el ancho de la imagen al 100% del tamaño del botón */
+  height: auto;
+  /* Ajusta la altura automáticamente */
+}
+
+/* Estilos para la imagen al costado del menú hamburguesa */
+.side-icon {
+  width: 70px;
+  /* Ajusta el ancho de la imagen */
+  height: auto;
+  /* Ajusta la altura automáticamente */
+  position: sticky;
+  /* Posiciona la imagen */
+}
+
+/* Estilos para la imagen en el header */
+.imagenHeader1 {
+  width: 35%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+}
+
+/* Estilos para la imagen en el header */
+.imagenHeader1:hover {
+  width: 35%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  animation: shake 0.5s ease;
+}
+
+/* Estilos del Footer */
+/* Estilos para el pie de página */
+footer {
+  font-size: x-small;
+  padding: 10%;
+  border-radius: 30px;
+  color: rgb(209, 207, 207);
+  margin: 0;
+  width: 40%;
+}
+
+/* Estilos para los elementos del pie de página */
+.footerElements {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Estilos para los enlaces en el pie de página */
+.linksFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5rem;
+}
+
+/* Estilos para los elementos de lista en el pie de página */
+.linksFooter div {
+  list-style: none;
+}
+
+.h1Titulo {
+  font-size: xx-large;
+  color: rgba(255, 228, 196, 0.826);
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.tituloImportante1 {
+  color: rgba(255, 255, 255, 0.857);
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tituloImportante2 {
+  color: #c4b29c;
+  border: 2px rgba(255, 255, 255, 0.237) dotted;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  padding: 1px;
+}
+
+.tituloImportante3 {
+  color: rgba(255, 201, 119, 0.857);
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tituloImportante4 {
+  color: rgba(252, 223, 131, 0.706);
+  font-size: x-large;
+}
+
+.textoCentrado1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloPequeño {
+  color: rgb(0, 0, 0);
+  font-size: medium;
+}
+
+.tituloPequeño1 {
+  color: rgb(241, 235, 200);
+  font-size: x-small;
+}
+
+.tituloPequeño2 {
+  color: rgba(106, 230, 205, 0.689);
+  font-size: small;
+}
+
+.tituloPequeño3 {
+  color: rgba(210, 153, 54, 0.689);
+  font-size: small;
+}
+
+.tituloPequeño4 {
+  color: rgb(234, 192, 67);
+  font-size: xx-small;
+}
+
+.text-muted1 {
+  color: wheat;
+}
+
+.estiloTextoContacto1 {
+  font-size: large;
+  font-family: "Caveat", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.estiloContacto1 a {
+  color: rgb(217, 201, 156);
+}
+
+/* Estilos para el formulario */
+.contenedorFormulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.estiloFormulario {
+  background-color: rgba(0, 0, 0, 0.5647058824);
+  font-family: "Caveat", cursive;
+  width: 60%;
+  font-size: small;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 2px solid #868889;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+/* Estilos para los campos de entrada del formulario */
+.estiloFormulario input {
+  background-color: rgba(212, 208, 208, 0.8784313725);
+  font-weight: bolder;
+  font-style: italic;
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+/* Estilos para las áreas de texto del formulario */
+.estiloFormulario textarea {
+  background-color: rgba(212, 208, 208, 0.8784313725);
+  color: #FFF;
+  font-style: italic;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada1 {
+  width: 80%;
+  height: auto;
+  border: 1px solid rgba(245, 222, 179, 0.434);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada2 {
+  width: 40%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  border: none;
+  /* Borde */
+  border-radius: 20px;
+  /* Radio del borde */
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada3 {
+  width: 35%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  border: none;
+  /* Borde */
+  border-radius: 20px;
+  /* Radio del borde */
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada4 {
+  width: 15%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  border: none;
+  /* Borde */
+  border-radius: 20px;
+  /* Radio del borde */
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada5 {
+  width: 30%;
+  /* Ancho por defecto */
+  height: auto;
+  /* Altura automática */
+}
+
+/* Estilos para las imágenes limitadas */
+.imagen-limitada6 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 2/1;
+  transition: 1s;
+}
+
+.gif-limitado1 {
+  width: 40%;
+  /* Ancho */
+  height: auto;
+  /* Altura automática */
+  border: rgba(156, 223, 202, 0.592) 10px solid;
+  /* Borde */
+  border-radius: 20px;
+  /* Radio del borde */
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.logoWhats {
+  width: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Estilos GRID-Estructuras*/
+/*---------------------------------GRID---------------------------------------*/
+.gridPadre {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1168px;
+  border: 1px solid rgba(0, 255, 255, 0.101);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.gridPadreCarrito1 {
+  display: grid;
+  grid-template-columns: auto; /* Solo una columna */
+  grid-auto-flow: row; /* Flujo automático en filas */
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1168px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.gridPadreCarrito2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1168px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 255, 255, 0.21);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.gridPadreCarrito3 {
+  margin-top: 20px;
+}
+
+.gridPadreCarrito4 {
+  display: flex;
+  flex-direction: row;
+  /* Mostrar elementos en filas */
+  flex-wrap: wrap;
+  /* Permitir que se envuelvan en varias filas */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1168px;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 255, 255, 0.21);
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.row-cols-md-4 {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.col-md-4 {
+  flex: 0 0 25%; /* Establece el ancho de cada elemento para que haya 4 elementos por fila */
+  max-width: 25%; /* Establece el ancho máximo de cada elemento */
+}
+
+.card {
+  text-align: justify;
+  background: rgba(27, 140, 130, 0.039);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.427);
+}
+
+.card1 {
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+.card2 {
+  font-size: small;
+  font-weight: bold;
+  border: 1px dotted white;
+  border-radius: 20px;
+}
+
+.card3 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.card4 {
+  background: linear-gradient(rgba(255, 255, 255, 0.16), rgba(255, 0, 0, 0.122));
+  border-radius: 20px;
+  font-size: xx-small;
+  padding: 10px;
+}
+
+.card-title {
+  color: rgba(249, 246, 156, 0.627);
+  text-transform: uppercase;
+  font-size: xx-small;
+  text-align: center;
+}
+
+.card-title1 {
+  color: rgba(167, 156, 249, 0.86);
+  font-size: small;
+  text-align: center;
+}
+
+.card-title2 {
+  text-transform: normal;
+  font-size: medium;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px;
+  background-color: transparent;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el botón de enviar del formulario */
+.botonEnviar {
+  background-color: rgba(86, 86, 86, 0.2862745098);
+  color: #ffffff;
+  border: none;
+  font-size: medium;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+.botonEnviar:hover {
+  color: rgb(233, 219, 130);
+  background-color: rgba(88, 82, 82, 0.352);
+}
+
+/*----------------Botón Comprar----------------*/
+.botonComprar {
+  background-color: #636767;
+  color: rgba(255, 255, 255, 0.665);
+  border: none;
+  border-radius: 10px;
+}
+
+.botonComprar:hover {
+  background-color: rgba(95, 96, 96, 0.563);
+  color: #ffffff;
+  border: none;
+}
+
+/*----------------Botón Pagar----------------*/
+.botonPagar {
+  background-color: rgba(226, 217, 164, 0.768627451);
+  border: none;
+  border-radius: 10px;
+}
+
+.botonPagar:hover {
+  background-color: rgba(105, 98, 87, 0.5176470588);
+  border: none;
+  border-radius: 10px;
+}
+
+/*----------------Botón "Vaciar Carrito"----------------*/
+#btnVaciarCarrito {
+  background-color: rgba(114, 86, 41, 0.4509803922);
+  color: rgba(254, 254, 232, 0.665);
+  border: none;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+#btnVaciarCarrito:hover {
+  background-color: rgba(156, 48, 77, 0.563);
+  color: #ffffff;
+}
+
+/*----------------Botón Encargar----------------*/
+.botonEncargar {
+  padding: 8px 16px;
+  font-size: small;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(205, 143, 43, 0.6156862745);
+  color: rgba(254, 254, 232, 0.665);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
+}
+
+.botonEncargar:hover {
+  background-color: rgba(156, 156, 48, 0.754);
+  color: #ffffff;
+  border: none;
+}
+
+/*----------------Boton Seguir comprando----------------*/
+.botonSeguirComprando1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: large;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(41, 108, 114, 0.4509803922);
+  color: rgba(254, 254, 232, 0.665);
+}
+
+.botonSeguirComprando1:hover {
+  background-color: rgba(156, 100, 48, 0.563);
+  color: #ffffff;
+  border: none;
+}
+
+/*----------------Botón de eliminar----------------*/
+.botonEliminar {
+  padding: 8px 16px;
+  font-size: small;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(77, 75, 22, 0.5764705882);
+  color: rgba(254, 254, 232, 0.665);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.botonEliminar:hover {
+  background-color: rgba(156, 122, 48, 0.563);
+  color: #ffffff;
+  border: none;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: small;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(77, 75, 22, 0.5764705882);
+  color: rgba(254, 254, 232, 0.665);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: rgba(156, 122, 48, 0.563);
+  color: #ffffff;
+  border: none;
+  animation: shake 0.5s ease;
+}
+
+.textoMovimiento:hover {
+  animation: shake 0.5s ease;
+}
+
+/*-------------EFECTO SHAKE EN EL MENU AL PASAR EL MOUSE-------------*/
+.menu-link:hover {
+  animation: shake 0.5s ease;
+  /* Aplica la animación shake al pasar el mouse */
+}
+
+/* Animación shake */
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-1px);
+  }
+  50% {
+    transform: translateX(1px);
+  }
+  75% {
+    transform: translateX(-1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* Estilos del encabezado de la página */
+/* Estilos personalizados para el Toastify */
+/* Clase para el mensaje de Toastify */
+.toastify-total {
+  background-color: rgba(142, 119, 0, 0.7529411765); /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 16px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  font-size: 16px; /* Tamaño de fuente */
+  font-weight: bold; /* Peso de la fuente */
+}
+
+/* Estilos para los botones del mensaje Toastify */
+.toastify-total .toastify-close {
+  color: #fff; /* Color del botón */
+  font-size: 14px; /* Tamaño de fuente */
+  font-weight: bold; /* Peso de la fuente */
+}
+
+.tituloPrecio1 {
+  color: rgba(255, 221, 0, 0.825);
+  font-size: medium;
+}
+
+.tituloPrecioCarrito {
+  text-decoration: dotted;
+  color: rgb(172, 45, 22);
+  font-size: xx-large;
+}
+
+.mini-carrito {
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 40px wheat;
+}
+
+.mini-carrito2 {
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 5px wheat;
+  padding: 20px;
+}
+
+.listaMiniCarrito3 {
+  background-color: transparent;
+  box-shadow: 0 0 2px wheat;
+  color: white;
+  padding: 10px;
+}
+
+.form-select {
+  background-color: rgba(97, 99, 89, 0.662745098);
+  color: rgba(255, 191, 0, 0.668);
+  border: none;
+  padding: 0px;
+}
+
+/* Estilos para centrar y cambiar el color de fondo de las opciones de los selects */
+select.form-select option {
+  text-align: center;
+  background-color: #3e2c00;
+  color: rgb(255, 255, 255);
+}
+
+/* Estilos generales */
+/* Estilos del menú lateral */
+.sidebar {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  color: #00FF7F; /* Verde jade */
+}
+
+/* Estilos del banner de publicidad */
+.banner {
+  margin: 20px 0;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+/* Estilos de la cuadrícula de productos */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+.product-card .promotion {
+  background-color: aqua; /* Gama similar a aqua */
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

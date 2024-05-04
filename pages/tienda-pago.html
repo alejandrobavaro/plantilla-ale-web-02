@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!------------------------------LENGUAJE PAGINA--------------------------->
+<html lang="es">
+<!--------------------------------------------------------------------------->
+
+<!---------------------------------INICIO HEAD------------------------------------->
+
+<head>
+    <!----------------------SEGMENTO SEO----------------------------------->
+    <!-- Metadatos para mejorar el SEO de la página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Descripcion de que es la pagina, ejemplo: Porfolio de proyectos y desarrollos o pagina de recetas o lo q sea." />
+    <meta name="keywords"
+        content="Pagina de 1-2-3, Pagina de 4-5-6, lalala, plantilla, agregar datos y palabras claves aqui" />
+
+    <!--------------------IMAGEN PARA COMPARTIR WEB--------------------------------->
+    <!-- AQUI va la imagen que se mostrara cuando se comparta la pagina a otras aplicaciones, es una imagen pequeña con el link y el texto de referencia -->
+    <meta property="og:image" content="../img/02-logos/logoheader1.png" />
+    <!--------------------------------------------------------------->
+
+    <!----------------------------TITULO------------------------------->
+    <!-- Título de la página -->
+    <title>Tienda-Pago - Titulo Web</title>
+    <!--------------------------------------------------------------->
+
+    <!-------------------LINKS ENLACES RECURSOS EXTERNOS-------------------->
+
+    <!-- BOOTSTRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!--------------------------------------------------------------->
+    <!-- BS ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <!--------------------------------------------------------------->
+  <!-- ----------------FAVICON ICONO LINK IMAGEN-------------------------- -->
+  <link rel="shortcut icon" href="../img/08-favicon/favicon1.ico" type="image/x-icon" />
+  <!--------------------------------------------------------------->
+    <!--------------------CSS LINK PERSONALIZADO-------------------------->
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <!--------------------------------------------------------------->
+    <!-- ----------------------TIPOGRAFIAS A AGREGAR------------------------->
+    <!-- Enlaces a fuentes de Google Fonts y otros recursos de tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <!--------------------------------------------------------------------------->
+</head>
+<!------------------------------FIN HEAD--------------------------------------->
+<!--------------------------------------------------------------------------->
+
+<!---------------------------INICIO BODY------------------------------------->
+
+<body class="container-fluid">
+    <!-- Contenedor fluido de Bootstrap -->
+    <!---------------------------INICIO HEADER---------------------------->
+    <header class="encabezado">
+        <!---------------------------INICIO NAV---------------------------->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!---------------Botón de menú hamburguesa----------------->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!----------------Ícono de menú------------------------>
+                    <span class="navbar-toggler-icon"></span>
+                    <!------------Imagen dentro del botón de menú--------------->
+                    <img class="menu-logo" src="../img/02-logos/logoheader1.png" alt="Logo" class="menu-logo">
+                </button>
+                <!-----------------Contenido del menú---------------------->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <!-------------Elementos del menú--------------->
+                        <div class="imagenHeader1">
+                            <!-------------Imagen del menú--------------->
+                            <a href="../index.html">
+                                <img class="container-fluid menu-logo" src="../img/02-logos/logoheader1.png" alt="." /></a>
+                        </div>
+                        <!-------------LINKS del menú--------------->
+                        <a class="nav-link menu-link" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link menu-link" href="./contacto.html">Contacto</a>
+                        <a class="nav-link menu-link" href="./tienda.html">Tienda</a>
+                    </div>
+                </div>
+            </div>
+            <!-----------------------FIN NAV---------------------------->
+        </nav>
+    </header>
+    <!---------------------------FIN HEADER------------------------------------->
+    <!--------------------------------------------------------------------------->
+
+
+    <!---------------------------INICIO MAIN------------------------------------->
+    <main>
+
+
+
+      <!-- TITULO -->
+      <section class="objetoCentrado1">
+        <h1 class="tituloImportante2 textoMovimiento">
+          <i class="bi bi-cart"></i> TIENDA - PAGOS <i class="bi bi-cart"></i>
+        </h1>
+      </section>
+
+
+      <!-- CARRITO PARA PAGO CON RESUMEN COMPRA -->
+      <div class="col">
+        <h3 class="objetoCentrado1 tituloImportante3">RESUMEN DE LA COMPRA:</h3>
+        <section class="objetoCentrado1">
+          <h4 class="item">
+            <i class="bi bi-activity"></i> REALIZA TU PAGO <i class="bi bi-activity"></i>
+          </h4>
+        </section>
+
+
+        <div class="card-container">
+          <div class="mini-carrito tituloImportante1">
+            <div class="objetoCentrado1" id="resumenCarrito">
+
+              <ul id="listaCarrito" class="list-group mb-3">
+                <p id="totalCarrito" class="fs-4">Total: $0.00</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <hr class="border border border-1 opacity-20" />
+
+      <!-- Botón para realizar el pago -->
+      <div class="objetoCentrado1">
+        <button id="btnPagar" class="btn btn-success">
+          <h3 class="tituloImportante2 textoMovimiento">
+            <i class="bi bi-shift-fill"></i> PAGAR
+          </h3>
+        </button>
+        </a>
+      </div>
+
+
+      <!-- -------------LINK SEGUIR COMPRANDO------------------ -->
+
+      <hr class="border border border-2 opacity-50" />
+
+      <!-- Botón para realizar el pago -->
+      <div class="objetoCentrado1">
+        <button class="botonSeguirComprando1">
+          <a href="./tienda.html">
+            <h3 class="tituloImportante2">
+              <i class="bi bi-shift-fill"></i> SEGUIR COMPRANDO <i class="bi bi-shift-fill"></i>
+            </h3>
+          </a>
+        </button>
+      </div>
+
+
+
+      <!----------CARRUSELL PUBLICIDAD ANTES DEL FOOTER ABAJO------------>
+      <hr class="border border border-1 opacity-2" />
+      
+      <div class="container text-center imagen-limitada2">
+        <div class="col">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="container-fluid imagen-limitada2" src="../img/04-img-banners/banner1.png" class="d-block w-100" alt="carrusel1">
+              </div>
+              <div class="carousel-item">
+                <img class="container-fluid imagen-limitada2" src="../img/04-img-banners/banner2.png" class="d-block w-100" alt="carrusel2">
+              </div>
+              <div class="carousel-item">
+                <img class="container-fluid imagen-limitada2" src="../img/04-img-banners/banner3.png" class="d-block w-100" alt="carrusel3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---------------------------FIN CARRUSELL------------------------------------->
+      <!--------------------------------------------------------------------------->
+
+
+
+    </main>
+    <!---------------------------FIN MAIN------------------------------------->
+    <!--------------------------------------------------------------->
+
+
+
+
+ 
+    <!-------------------------INICIO FOOTER------------------------>
+    <hr class="border border border-1 opacity-2" />
+
+    <footer class="gridPadre">
+  
+      <div class="footerElements">
+        <div class="img1Footer">
+          <img class="imagen-limitada2 img-fluid" src="../img/08-favicon/logopequeño1.png" alt="footerimagen1" />
+        </div>
+  
+        <div class="linksFooter">
+          <div class="textoMovimiento">
+            <a href="#" target="_blank">
+              <i class="bi bi-instagram"></i> Instagram
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+          <div class="textoMovimiento">
+            <a href="#" target="_blank">
+              <i class="bi bi-youtube"></i> Canal de Youtube
+              <i class="bi bi-youtube"></i>
+            </a>
+          </div>
+          <div class="textoMovimiento">
+            <a href="#" target="_blank">
+              <i class="bi bi-facebook"></i> Facebook
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+          <div class="textoMovimiento">
+            <a href="#" target="_blank">
+              <i class="bi bi-twitter"></i> X (Twitter)
+              <i class="bi bi-twitter-x"></i>
+            </a>
+          </div>
+          <h6 class="tituloPequeño4">
+            <i class="bi bi-person-arms-up"></i> Desarrollo Gondra World Dev <i class="bi bi-person-arms-up"></i>
+          </h6>
+        </div>
+  
+        <div class="img2Footer">
+          <img class="imagen-limitada2 img-fluid" src="../img/08-favicon/logopequeño2.png"  alt="footerimagen2" />
+        </div>
+  
+      </div>
+
+
+    </footer>
+    <!------------------------------FIN FOOTER-------------------------->
+    <!--------------------------------------------------------------->
+
+
+
+
+    <!----------------------BOTON WHATTSAPP------------------------------>
+ 
+    <p id="telefonoWhattsapp"> <a
+      href="https://api.whatsapp.com/send?phone=..............&text=Hola!,%20en%20que%20puedo%20ayudarte?"
+      target="_blank">
+      <img class="logoWhats textoMovimiento" src="../img/02-logos/logowhattsapp1.png" alt="imgwhattsapp1">
+     </a>
+  </p>
+
+<!----------------------------------------------------------------------->
+
+
+
+    <!--------------------------------------------------------------->
+    <!---------------Enlace a BOOTSTRAP DATA ---------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <!--------------------------------------------------------------->
+    <!-- Enlace a tu archivo JavaScript -->
+    <script src="../js/main.js"></script>
+    <!-- Enlace a tu archivo JavaScript -->
+    <script src="../js/tienda.js"></script>
+    <!-- Enlace a tu archivo JavaScript -->
+    <script src="../js/tienda-pago.js"></script>
+    <!--------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!--------------------------------------------------------------->
+
+</body>
+<!------------------------------FIN BODY-------------------------->
+<!--------------------------------------------------------------->
+
+</html>
+<!------------------------------FIN HTML-------------------------->
+<!--------------------------------------------------------------->

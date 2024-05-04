@@ -1,0 +1,43 @@
+/*---------------------SASS A CSS------------------------*/
+
+/* Estilos de ajustes responsive*/
+@import "00-responsive";
+
+/* Estilos del Body*/
+@import "01-body";
+
+/* Estilos del Main */
+@import "02-main";
+
+/* Estilos del Header-NAV*/
+@import "03-header-nav";
+
+/* Estilos del Footer */
+@import "04-footer";
+
+// @import "TEXTOS";
+@import "05a-textos";
+
+// @import "formularios";
+@import "05b-formularios";
+
+// @import "IMAGENES";
+@import "06-imagenes";
+
+/* Estilos GRID-Estructuras*/
+@import "07-grid-estructuras";
+
+// @import "cards";
+@import "08-cards";
+
+// @import "textos";
+@import "09-botones";
+
+// @import "animaciones";
+@import "10-animaciones";
+
+/* Estilos del encabezado de la página */
+@import "11-alerts-toasts";
+
+// @import "tienda";
+@import "12-tienda";
