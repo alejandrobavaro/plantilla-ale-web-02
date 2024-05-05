@@ -265,3 +265,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Llamar a la función para cargar los productos cuando la página esté lista
   cargarProductosDesdeJSON();
 });
+
+
+
+
+
+
