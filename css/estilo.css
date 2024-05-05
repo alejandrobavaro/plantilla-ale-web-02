@@ -466,7 +466,7 @@ footer a:visited {
   width: 90%;
   height: auto;
   padding: 0 40px 0 40px;
-  box-shadow: 0 0 5px rgb(0, 0, 0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.201);
 }
 
 /* Estilos para las imágenes limitadas */
@@ -765,12 +765,12 @@ footer a:visited {
   font-size: large;
   border: none;
   border-radius: 10px;
-  background-color: rgba(107, 114, 41, 0.4509803922);
+  background-color: rgba(255, 255, 255, 0.862745098);
   color: rgba(254, 254, 232, 0.665);
 }
 
 .botonSeguirComprando1:hover {
-  background-color: rgba(156, 100, 48, 0.563);
+  background-color: rgb(212, 231, 227);
   color: #ffffff;
   border: none;
 }
@@ -839,6 +839,22 @@ footer a:visited {
   }
   100% {
     transform: translateX(0);
+  }
+}
+.logo-animado {
+  animation: animacionLogo 6s ease infinite alternate;
+  max-width: 95%; /* Ajusta el valor según el tamaño máximo deseado */
+}
+
+@keyframes animacionLogo {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.02) rotate(1deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
   }
 }
 /* Estilos del encabezado de la página */
