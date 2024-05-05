@@ -34,20 +34,24 @@
 }
 
 .tituloImportante4 {
-    color: rgba(252, 223, 131, 0.706);
+    color: rgba(81, 10, 144, 0.478);
     font-size: x-large;
-    // font-weight: bold;
-    // text-transform: uppercase;
+   font-weight: bold;
+     text-transform: uppercase;
 }
+
 //------------------------------------------------//
 
 
 //---------------TEXTOS CENTRADOS-------------------//
 .textoCentrado1 {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    margin-top: 0px;
 }
+
 //------------------------------------------------//
 
 
@@ -75,7 +79,7 @@
 
 
 .tituloPequeño4 {
-    color: rgb(234, 192, 67);
+    color: rgb(0, 0, 0);
     font-size: xx-small;
 }
 
@@ -93,11 +97,11 @@
     font-family: "Caveat", cursive;
     display: flex;
     align-items: center;
-    justify-content: center; 
-  }
+    justify-content: center;
+}
 
-  .estiloContacto1 a {
-color: rgb(217, 201, 156);
-  }
+.estiloContacto1 a {
+    color: rgb(45, 12, 104);
+}
+
 //-----------------------------------------------//
-
