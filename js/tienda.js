@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Función para cargar los productos desde el archivo JSON
   async function cargarProductosDesdeJSON() {
       try {
-          const response = await fetch('../json/productos.json');
+          const response = await fetch('../json/productos2.json');
           productos = await response.json(); // Almacenar los productos cargados en la variable global
           cargarProductos(productos);
       } catch (error) {

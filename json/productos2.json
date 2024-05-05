@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+      "nombre": "Producto 1",
+      "precio": 1000,
+      "imagen": "../img/06-tienda/tienda1-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 2,
+      "nombre": "Producto 2",
+      "precio": 2000,
+      "imagen": "../img/06-tienda/tienda2-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 3,
+    "nombre": "Producto 3",
+    "precio": 3000,
+    "imagen": "../img/06-tienda/tienda3-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 4,
+    "nombre": "Producto 4",
+    "precio": 4000,
+    "imagen": "../img/06-tienda/tienda4-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 5,
+    "nombre": "Producto 5",
+    "precio": 5000,
+    "imagen": "../img/06-tienda/tienda5-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 6,
+    "nombre": "Producto 6",
+    "precio": 6000,
+    "imagen": "../img/06-tienda/tienda6-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 7,
+    "nombre": "Producto 7",
+    "precio": 7000,
+    "imagen": "../img/06-tienda/tienda7-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 8,
+    "nombre": "Producto 8",
+    "precio": 8000,
+    "imagen": "../img/06-tienda/tienda8-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 9,
+    "nombre": "Producto 9",
+    "precio": 9000,
+    "imagen": "../img/06-tienda/tienda9-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 10,
+    "nombre": "Producto 10",
+    "precio": 10000,
+    "imagen": "../img/06-tienda/tienda10-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 11,
+      "nombre": "Producto 11",
+      "precio": 11000,
+      "imagen": "../img/06-tienda/tienda11-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 12,
+    "nombre": "Producto 12",
+    "precio": 12000,
+    "imagen": "../img/06-tienda/tienda12-.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 13,
+    "nombre": "Camisa Negra",
+    "precio": 2000,
+    "imagen": "../img/06-tienda/camisa-negra.png",
+    "categoria": "Camisas"
+  },
+  {
+    "id": 14,
+    "nombre": "Camisa Azul",
+    "precio": 2000,
+    "imagen": "../img/06-tienda/camisa-azul.png",
+    "categoria": "Camisas"
+  },
+  {
+    "id": 15,
+    "nombre": "Camisa Blanca",
+    "precio": 2000,
+    "imagen": "../img/06-tienda/camisa-blanca.png",
+    "categoria": "Camisas"
+  },
+  {
+    "id": 16,
+    "nombre": "Taza Negra",
+    "precio": 300,
+    "imagen": "../img/06-tienda/taza-negra.png",
+    "categoria": "Tazas"
+  },
+  {
+    "id": 17,
+    "nombre": "Taza Blanca",
+    "precio": 300,
+    "imagen": "../img/06-tienda/taza-blanca.png",
+    "categoria": "Tazas"
+  },
+  {
+    "id": 18,
+    "nombre": "Taza Roja",
+    "precio": 300,
+    "imagen": "../img/06-tienda/taza-roja.png",
+    "categoria": "Tazas"
+  },
+  {
+    "id": 19,
+    "nombre": "Llavero Negro",
+    "precio": 150,
+    "imagen": "../img/06-tienda/llavero-negro.png",
+    "categoria": "Llaveros"
+  },
+  {
+    "id": 20,
+    "nombre": "Llavero Azul",
+    "precio": 150,
+    "imagen": "../img/06-tienda/llavero-azul.png",
+    "categoria": "Llaveros"
+  },
+  {
+    "id": 21,
+    "nombre": "Llavero Rojo",
+    "precio": 150,
+    "imagen": "../img/06-tienda/llavero-rojo.png",
+    "categoria": "Llaveros"
+  },
+  {
+    "id": 22,
+    "nombre": "Remera Amarilla",
+    "precio": 1500,
+    "imagen": "../img/06-tienda/remera-amarilla.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 23,
+    "nombre": "Remera Negra",
+    "precio": 1500,
+    "imagen": "../img/06-tienda/remera-negra.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 24,
+    "nombre": "Remera Blanca",
+    "precio": 1500,
+    "imagen": "../img/06-tienda/remera-blanca.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 25,
+    "nombre": "Gorro Blanco",
+    "precio": 800,
+    "imagen": "../img/06-tienda/gorro-blanco.png",
+    "categoria": "Gorros"
+  },
+  {
+    "id": 26,
+    "nombre": "Gorro Verde",
+    "precio": 800,
+    "imagen": "../img/06-tienda/gorro-verde.png",
+    "categoria": "Gorros"
+  },
+  {
+    "id": 27,
+    "nombre": "Gorro Amarillo",
+    "precio": 800,
+    "imagen": "../img/06-tienda/gorro-amarillo.png",
+    "categoria": "Gorros"
+  },
+  {
+    "id": 28,
+    "nombre": "Buzo Azul",
+    "precio": 2500,
+    "imagen": "../img/06-tienda/buzo-azul.png",
+    "categoria": "Buzos"
+  },
+  {
+    "id": 29,
+    "nombre": "Buzo Blanco",
+    "precio": 2500,
+    "imagen": "../img/06-tienda/buzo-blanco.png",
+    "categoria": "Buzos"
+  },
+  {
+    "id": 30,
+    "nombre": "Buzo Verde",
+    "precio": 2500,
+    "imagen": "../img/06-tienda/buzo-verde.png",
+    "categoria": "Buzos"
+  },
+  {
+    "id": 31,
+    "nombre": "Corbata Amarilla",
+    "precio": 1000,
+    "imagen": "../img/06-tienda/corbata-amarilla.png",
+    "categoria": "Corbatas"
+  },
+  {
+    "id": 32,
+    "nombre": "Corbata Verde",
+    "precio": 1000,
+    "imagen": "../img/06-tienda/corbata-verde.png",
+    "categoria": "Corbatas"
+  },
+  {
+    "id": 33,
+    "nombre": "Corbata Blanca",
+    "precio": 1000,
+    "imagen": "../img/06-tienda/corbata-blanca.png",
+    "categoria": "Corbatas"
+  },
+  {
+    "id": 34,
+    "nombre": "Camisa Roja",
+    "precio": 2000,
+    "imagen": "../img/06-tienda/camisa-roja.png",
+    "categoria": "Camisas"
+  },
+  {
+    "id": 35,
+    "nombre": "Camisa Verde",
+    "precio": 2000,
+    "imagen": "../img/06-tienda/camisa-verde.png",
+    "categoria": "Camisas"
+  },
+  {
+    "id": 36,
+    "nombre": "Camisa Amarilla",
+    "precio": 2000,
+    "imagen": "../img/06-tienda/camisa-amarilla.png",
+    "categoria": "Camisas"
+  },
+  {
+    "id": 37,
+    "nombre": "Taza Amarilla",
+    "precio": 300,
+    "imagen": "../img/06-tienda/taza-amarilla.png",
+    "categoria": "Tazas"
+  },
+  {
+    "id": 38,
+    "nombre": "Taza Azul",
+    "precio": 300,
+    "imagen": "../img/06-tienda/taza-azul.png",
+    "categoria": "Tazas"
+  },
+  {
+    "id": 39,
+    "nombre": "Taza Verde",
+    "precio": 300,
+    "imagen": "../img/06-tienda/taza-verde.png",
+    "categoria": "Tazas"
+  },
+  {
+    "id": 40,
+    "nombre": "Llavero Verde",
+    "precio": 150,
+    "imagen": "../img/06-tienda/llavero-verde.png",
+    "categoria": "Llaveros"
+  },
+  {
+    "id": 41,
+    "nombre": "Llavero Blanco",
+    "precio": 150,
+    "imagen": "../img/06-tienda/llavero-blanco.png",
+    "categoria": "Llaveros"
+  },
+  {
+    "id": 42,
+    "nombre": "Llavero Amarillo",
+    "precio": 150,
+    "imagen": "../img/06-tienda/llavero-amarillo.png",
+    "categoria": "Llaveros"
+  },
+  {
+    "id": 43,
+    "nombre": "Remera Violeta",
+    "precio": 1500,
+    "imagen": "../img/06-tienda/remera-violeta.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 44,
+    "nombre": "Remera Naranja",
+    "precio": 1500,
+    "imagen": "../img/06-tienda/remera-naranja.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 45,
+    "nombre": "Remera Celeste",
+    "precio": 1500,
+    "imagen": "../img/06-tienda/remera-celeste.png",
+    "categoria": "Remeras"
+  },
+  {
+    "id": 46,
+    "nombre": "Gorro Celeste",
+    "precio": 800,
+    "imagen": "../img/06-tienda/gorro-celeste.png",
+    "categoria": "Gorros"
+  },
+  {
+    "id": 47,
+    "nombre": "Gorro Naranja",
+    "precio": 800,
+    "imagen": "../img/06-tienda/gorro-naranja.png",
+    "categoria": "Gorros"
+  },
+  {
+    "id": 48,
+    "nombre": "Gorro Violeta",
+    "precio": 800,
+    "imagen": "../img/06-tienda/gorro-violeta.png",
+    "categoria": "Gorros"
+  },
+  {
+    "id": 49,
+    "nombre": "Buzo Naranja",
+    "precio": 2500,
+    "imagen": "../img/06-tienda/buzo-naranja.png",
+    "categoria": "Buzos"
+  },
+  {
+    "id": 50,
+    "nombre": "Buzo Celeste",
+    "precio": 2500,
+    "imagen": "../img/06-tienda/buzo-celeste.png",
+    "categoria": "Buzos"
+  }
+]

@@ -17,7 +17,7 @@
   // border: 1px solid white;
   border-radius: 20px;
   background-color: transparent;
-  box-shadow: 0 0 40px wheat;
+  box-shadow: 0 0 20px wheat;
 }
 
 .mini-carrito2 {
@@ -107,3 +107,53 @@ select.form-select option {
   padding: 5px 10px;
   border-radius: 3px;
 }
+
+
+//-----------MENU TIENDA CATEGORIAS------------------//
+.categoria-menu {
+ // background-color: #5f1c1c45;
+  //border: 1px solid #cccccc1d;
+  border-radius: 5px;
+  padding: 0px;
+  margin-bottom:  5px;
+  display: flex; /* Cambio a flexbox */
+}
+
+
+
+.categoria-menu h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.categoria-lista ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Hace que la lista sea horizontal */
+  flex-wrap: nowrap; /* Evita que los elementos se envuelvan */
+ }
+
+.categoria-lista li {
+  margin-right: 10px; /* Espacio entre los elementos */
+  white-space: nowrap; /* Evita que los elementos se envuelvan al pasar del ancho */
+}
+
+
+.categoria-lista a {
+  text-decoration: none;
+  color: #fbbb31;
+  padding: 5px 10px;
+  border: 1px solid transparent; /* Borde transparente inicialmente */
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.categoria-lista a:hover {
+  background-color: #6f3c178b; /* Color de fondo al pasar el cursor */
+  border-color: #ffae00; /* Color del borde al pasar el cursor */
+}
+
+
+//------------------------------//
+

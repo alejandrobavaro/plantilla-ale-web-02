@@ -137,6 +137,10 @@ a:hover {
 }
 
 /* Estilos del Main */
+main {
+  padding: 20px;
+}
+
 .objetoCentrado {
   width: 500px;
   display: flex;
@@ -528,9 +532,10 @@ footer {
   align-items: center;
   margin: 0 auto;
   max-width: 1168px;
-  border: 1px solid rgba(0, 255, 255, 0.101);
+  border: 1px solid rgba(255, 230, 0, 0.186);
   border-radius: 30px;
   padding: 30px;
+  box-shadow: 0 0 40px rgba(245, 222, 179, 0.304);
 }
 
 .gridPadreCarrito1 {
@@ -573,7 +578,7 @@ footer {
   margin: 0 auto;
   max-width: 1168px;
   margin-top: 20px;
-  border: 1px solid rgba(0, 255, 255, 0.21);
+  border: 1px solid rgba(242, 255, 0, 0.756);
   border-radius: 30px;
   padding: 10px;
 }
@@ -587,6 +592,13 @@ footer {
 .col-md-4 {
   flex: 0 0 25%; /* Establece el ancho de cada elemento para que haya 4 elementos por fila */
   max-width: 25%; /* Establece el ancho máximo de cada elemento */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* 1 columna para el menú de categorías y 3 columnas para los productos */
+  gap: 10px;
+  margin: 0 auto;
 }
 
 .card {
@@ -737,7 +749,7 @@ footer {
   font-size: large;
   border: none;
   border-radius: 10px;
-  background-color: rgba(41, 108, 114, 0.4509803922);
+  background-color: rgba(107, 114, 41, 0.4509803922);
   color: rgba(254, 254, 232, 0.665);
 }
 
@@ -847,7 +859,7 @@ footer {
 .mini-carrito {
   border-radius: 20px;
   background-color: transparent;
-  box-shadow: 0 0 40px wheat;
+  box-shadow: 0 0 20px wheat;
 }
 
 .mini-carrito2 {
@@ -930,6 +942,45 @@ select.form-select option {
   color: #ffffff;
   padding: 5px 10px;
   border-radius: 3px;
+}
+
+.categoria-menu {
+  border-radius: 5px;
+  padding: 0px;
+  margin-bottom: 5px;
+  display: flex; /* Cambio a flexbox */
+}
+
+.categoria-menu h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.categoria-lista ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Hace que la lista sea horizontal */
+  flex-wrap: nowrap; /* Evita que los elementos se envuelvan */
+}
+
+.categoria-lista li {
+  margin-right: 10px; /* Espacio entre los elementos */
+  white-space: nowrap; /* Evita que los elementos se envuelvan al pasar del ancho */
+}
+
+.categoria-lista a {
+  text-decoration: none;
+  color: #fbbb31;
+  padding: 5px 10px;
+  border: 1px solid transparent; /* Borde transparente inicialmente */
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.categoria-lista a:hover {
+  background-color: rgba(111, 60, 23, 0.5450980392); /* Color de fondo al pasar el cursor */
+  border-color: #ffae00; /* Color del borde al pasar el cursor */
 }
 
 /*# sourceMappingURL=estilo.css.map */
