@@ -20,11 +20,14 @@
 .tituloImportante2 {
     color: rgb(0, 0, 0);
     border: 2px rgba(255, 255, 255, 0.237) dotted;
-    font-size: large;
+    font-size: medium;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    padding: 1px;
+    padding: 0; /* Elimina el relleno predeterminado */
+    padding-inline: inherit; /* Hereda el relleno horizontal */
 }
+
+
 
 .tituloImportante3 {
     color: rgb(99, 24, 140);

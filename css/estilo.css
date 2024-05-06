@@ -13,6 +13,25 @@
     font-size: 18px; /* Tamaño de fuente para el menú principal */
   }
 }
+/* Media query para pantallas menores o iguales a 767px */
+@media screen and (max-width: 767px) {
+  .row-cols-1 {
+    /* Cambia el número de columnas a una sola columna en pantallas más pequeñas */
+    grid-template-columns: 1fr;
+  }
+  .botonEncargar {
+    /* Ajusta el tamaño del botón en pantallas más pequeñas */
+    font-size: 1rem;
+    padding: 5px;
+  }
+}
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .btn {
+    padding: 5px 7px; /* Ajusta el relleno del enlace para los botones */
+    font-size: 8px; /* Reduce el tamaño del texto de los botones */
+  }
+}
 /*---------------------------AJUSTES RESPONSIVE FOOTER---------------------*/
 /* Para pantallas menores o iguales a 420px */
 @media screen and (max-width: 420px) {
@@ -30,6 +49,10 @@
 }
 /* Para pantallas menores o iguales a 767px */
 @media screen and (max-width: 767px) {
+  .gridPadrefooter {
+    width: 45%;
+    padding: 10px;
+  }
   .footerElements {
     flex-direction: column;
   }
@@ -40,20 +63,12 @@
     margin-left: 0rem;
     margin-right: 0rem;
   }
-  .img2Footer {
-    display: none;
-  }
-  .img1Footer img {
-    max-height: 2rem;
-    margin-bottom: 0.5rem;
-  }
 }
 /* Media query para pantallas menores o iguales a 767px */
+/* Para pantallas menores o iguales a 767px */
 @media screen and (max-width: 767px) {
-  .imagen-limitada2 {
-    width: 100%; /* Establecer el ancho al 100% para ocupar el ancho del contenedor */
-    max-width: 30px; /* Establecer un tamaño máximo para la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
+  .gif-limitado1 {
+    width: 20%;
   }
 }
 /* Estilos del Body*/
@@ -226,8 +241,8 @@ main {
 
 /* Estilos para el botón de menú hamburguesa */
 .navbar-toggler .navbar-toggler-icon {
-  background-color: rgba(255, 170, 0, 0.78);
-  border-radius: 1px;
+  border-radius: 50px;
+  padding: 20px;
 }
 
 .navbar-toggler {
@@ -337,10 +352,11 @@ footer a:visited {
 .tituloImportante2 {
   color: rgb(0, 0, 0);
   border: 2px rgba(255, 255, 255, 0.237) dotted;
-  font-size: large;
+  font-size: medium;
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
-  padding: 1px;
+  padding: 0; /* Elimina el relleno predeterminado */
+  padding-inline: inherit; /* Hereda el relleno horizontal */
 }
 
 .tituloImportante3 {
@@ -523,10 +539,7 @@ footer a:visited {
 }
 
 .gif-limitado1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 10%;
+  width: 20%;
   height: auto;
   border-radius: 20px; /* Radio del borde */
   padding: 0px;
@@ -544,6 +557,25 @@ footer a:visited {
 /* Estilos GRID-Estructuras*/
 /*---------------------------------GRID---------------------------------------*/
 .gridPadre {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.304);
+}
+
+.gridPadreTienda1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.gridPadrefooter {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: center;
@@ -698,14 +730,20 @@ footer a:visited {
 
 /*----------------Botón Comprar----------------*/
 .botonComprar {
-  background-color: #2828d1;
-  color: rgba(255, 255, 255, 0.665);
+  padding: 8px 16px;
+  font-size: small;
   border: none;
   border-radius: 10px;
+  background-color: rgba(135, 43, 205, 0.6156862745);
+  color: rgb(254, 254, 232);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
 }
 
 .botonComprar:hover {
-  background-color: rgba(90, 228, 228, 0.563);
+  background-color: rgba(156, 156, 48, 0.754);
   color: #ffffff;
   border: none;
 }
@@ -724,17 +762,23 @@ footer a:visited {
 }
 
 /*----------------Botón "Vaciar Carrito"----------------*/
-#btnVaciarCarrito {
-  background-color: rgba(114, 86, 41, 0.4509803922);
-  color: rgba(254, 254, 232, 0.665);
+.btnVaciarCarrito {
+  padding: 8px 16px;
+  font-size: small;
   border: none;
   border-radius: 10px;
-  padding: 16px;
+  background-color: rgba(135, 43, 205, 0.6156862745);
+  color: rgba(254, 254, 232, 0.665);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
 }
 
-#btnVaciarCarrito:hover {
-  background-color: rgba(156, 48, 77, 0.563);
+.btnVaciarCarrito:hover {
+  background-color: rgba(156, 156, 48, 0.754);
   color: #ffffff;
+  border: none;
 }
 
 /*----------------Botón Encargar----------------*/
@@ -766,7 +810,7 @@ footer a:visited {
   font-size: large;
   border: none;
   border-radius: 10px;
-  background-color: #20055a;
+  background-color: #e0d5f5;
   color: rgb(255, 255, 255);
 }
 
@@ -801,7 +845,7 @@ footer a:visited {
   border: none;
   border-radius: 10px;
   background-color: rgba(42, 18, 72, 0.431372549);
-  color: rgba(254, 254, 232, 0.665);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: 10px;
@@ -1012,7 +1056,7 @@ select.form-select option {
 }
 
 .categoria-lista a:hover {
-  background-color: rgba(179, 182, 132, 0.2509803922); /* Color de fondo al pasar el cursor */
+  background-color: rgba(255, 255, 255, 0.3254901961); /* Color de fondo al pasar el cursor */
   border-color: #9000ff; /* Color del borde al pasar el cursor */
 }
 

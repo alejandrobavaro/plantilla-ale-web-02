@@ -32,9 +32,9 @@ document.addEventListener("DOMContentLoaded", function () {
                           </section>
                           <img src="${producto.imagen}" class="card-img-top img-fluid" alt="${producto.nombre}" />
                           <h5 class="card-title">${producto.nombre}</h5>
-                          <h4 class="objetoCentrado1 tituloPrecio1">Precio:<span>
+                          <span>
                               <h3 class="tituloImportante2 objetoCentrado1"> $${producto.precio.toFixed(2)} </h3>
-                              </span></h4>
+                              </span>
                           <label for="selectColor${producto.id}" class="objetoCentrado1 tituloPequeño1"><i class="bi bi-activity"></i> ELIGE COLOR <i class="bi bi-activity"></i></label>
                           <select id="selectColor${producto.id}" class="form-select mb-3 tituloPequeño4">
                               <option value="Negro">Negro</option>
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
                               <option value="x-large">X-Large</option>
                               <option value="xx-large">XX-Large</option>
                           </select>
-                          <div class="d-grid gap-2 col-6 mx-auto">
+                          <div class="d-grid gap-2 col-6 mx-auto objetoCentrado1">
                               <button class="botonEncargar btn btn-primary" data-producto-id="${producto.id}">
                                   <i class="bi bi-shift-fill"></i> Encargar 
                               </button>

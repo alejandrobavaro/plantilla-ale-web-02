@@ -16,6 +16,43 @@
 //----------------------------------------------------------------------------//
 
 
+//-----------------------------------TIENDA Y MINI CARRITO------------------//
+
+
+
+
+
+/* Media query para pantallas menores o iguales a 767px */
+@media screen and (max-width: 767px) {
+  .row-cols-1 {
+    /* Cambia el número de columnas a una sola columna en pantallas más pequeñas */
+    grid-template-columns: 1fr;
+  }
+
+ 
+
+  .botonEncargar {
+    /* Ajusta el tamaño del botón en pantallas más pequeñas */
+    font-size: 1rem;
+    padding: 5px;
+  }
+}
+
+
+//------------------------------/
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .btn {
+    padding: 5px 7px; /* Ajusta el relleno del enlace para los botones */
+    font-size: 8px; /* Reduce el tamaño del texto de los botones */
+  }
+}
+
+
+
+//----------------------------------------------------------------------------//
+
 /*---------------------------AJUSTES RESPONSIVE FOOTER---------------------*/
 /* Para pantallas menores o iguales a 420px */
 @media screen and (max-width: 420px) {
@@ -35,6 +72,11 @@
 
 /* Para pantallas menores o iguales a 767px */
 @media screen and (max-width: 767px) {
+  .gridPadrefooter {
+    width: 45%;
+    padding: 10px;
+  }
+
   .footerElements {
     flex-direction: column;
   }
@@ -47,36 +89,36 @@
     margin-right: 0rem;
   }
 
-  .img2Footer {
-    display: none;
-  }
+//   .img2Footer {
+//     display: none;
+//   }
   
-
-  .img1Footer img {
-    max-height: 2rem;
-    margin-bottom: 0.5rem;
-  }
+//   .img1Footer img {
+//     max-height: 2rem;
+//     margin-bottom: 0.5rem;
+//   }
 }
 
 //IMAGEN FOOTER TAMAÑO PARA MOBILE// 
 
 /* Media query para pantallas menores o iguales a 767px */
-@media screen and (max-width: 767px) {
-  .imagen-limitada2 {
-    width: 100%; /* Establecer el ancho al 100% para ocupar el ancho del contenedor */
-    max-width: 30px; /* Establecer un tamaño máximo para la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
-  }
-}
+// @media screen and (max-width: 767px) {
+//   .imagen-limitada2 {
+//     width: 100%; /* Establecer el ancho al 100% para ocupar el ancho del contenedor */
+//     max-width: 30px; /* Establecer un tamaño máximo para la imagen */
+//     height: auto; /* Altura automática para mantener la proporción */
+//   }
+// }
 
 //-------------------------------------------------------// 
 
-// /* Ajustes para el título (h1Titulo) en pantallas menores o iguales a 768px */
-// @media (max-width: 768px) {
-//   .h1Titulo {
-//     font-size: 1.2em;
-//   }
-// }
+// /* GIT GONDRA WORLD en pantallas menores o iguales a 768px */
+/* Para pantallas menores o iguales a 767px */
+@media screen and (max-width: 767px) {
+  .gif-limitado1 {
+    width: 20%;
+  }
+}
 
 // /* Ajustes para el número de teléfono (telefonoWhattsapp) en diferentes tamaños de pantalla */
 

@@ -19,14 +19,20 @@
 
 /*----------------Botón Comprar----------------*/
 .botonComprar {
-  background-color: #2828d1;
-  color: rgba(255, 255, 255, 0.665);
+  padding: 8px 16px;
+  font-size: small;
   border: none;
   border-radius: 10px;
+  background-color: #872bcd9d;
+  color: rgb(254, 254, 232);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
  }
 
 .botonComprar:hover {
-  background-color: rgba(90, 228, 228, 0.563);
+  background-color: rgba(156, 156, 48, 0.754);
   color: #ffffff;
   border: none;
 }
@@ -45,17 +51,23 @@
 }
 
 /*----------------Botón "Vaciar Carrito"----------------*/
-#btnVaciarCarrito {
-  background-color: #72562973;
-  color: rgba(254, 254, 232, 0.665);
+.btnVaciarCarrito {
+  padding: 8px 16px;
+  font-size: small;
   border: none;
   border-radius: 10px;
-  padding: 16px;
+  background-color: #872bcd9d;
+  color: rgba(254, 254, 232, 0.665);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
 }
 
-#btnVaciarCarrito:hover {
-  background-color: rgba(156, 48, 77, 0.563);
+.btnVaciarCarrito:hover {
+  background-color: rgba(156, 156, 48, 0.754);
   color: #ffffff;
+  border: none;
 }
 
 /*----------------Botón Encargar----------------*/
@@ -87,7 +99,7 @@
   font-size: large;
   border: none;
   border-radius: 10px;
-  background-color: #20055a;
+  background-color: #e0d5f5;
   color: rgb(255, 255, 255);
 }
 
@@ -123,7 +135,7 @@
   border: none;
   border-radius: 10px;
   background-color: #2a12486e;
-  color: rgba(254, 254, 232, 0.665);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transition: all 0.3s ease;
   // float: right;

@@ -2,6 +2,28 @@
 
 .gridPadre {
   display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.304);
+}
+
+.gridPadreTienda1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ // max-width: 1168px;
+  //border: 1px solid rgba(255, 230, 0, 0.186);
+  border-radius: 30px;
+  padding: 10px;
+  // box-shadow: 0 0 40px rgba(0, 0, 0, 0.304);
+}
+
+.gridPadrefooter {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: center;
   align-items: center;
