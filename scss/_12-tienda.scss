@@ -2,13 +2,13 @@
 
 .tituloPrecio1 {
   // text-decoration: underline;
-  color: rgba(255, 221, 0, 0.825);
-  font-size: medium;
+  color: #79797a;
+  font-size: small;
 }
 
 .tituloPrecioCarrito {
   text-decoration: dotted;
-  color: rgb(172, 45, 22);
+  color: #9900ff;
   font-size: xx-large;
 }
 
@@ -38,7 +38,7 @@
 //-----------------SELECTOR DENTRO DE PRODUCTO TALLE-COLOR------------------//
 .form-select {
   background-color: #616359a9;
-  color: rgba(255, 191, 0, 0.668);
+  color: rgb(255, 255, 255);
   border: none;
   padding: 0px;
 }
@@ -46,7 +46,7 @@
 /* Estilos para centrar y cambiar el color de fondo de las opciones de los selects */
 select.form-select option {
   text-align: center;
-  background-color: #3e2c00;
+  background-color: #372d3cce;
   color: rgb(255, 255, 255);
 }
 

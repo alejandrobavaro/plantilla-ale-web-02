@@ -282,13 +282,12 @@ main {
 /* Estilos del Footer */
 /* Estilos para el pie de página */
 footer {
-  background-color: rgba(255, 255, 255, 0.173);
+  background-color: transparent;
   font-size: x-small;
   padding: 10%;
-  border-radius: 30px;
-  color: rgb(0, 0, 0);
+  color: rgb(119, 0, 255);
   margin: 0;
-  width: 40%;
+  width: 30%;
 }
 
 /* Estilos para los elementos del pie de página */
@@ -321,14 +320,14 @@ footer a:visited {
 
 .h1Titulo {
   font-size: xx-large;
-  color: rgba(255, 228, 196, 0.826);
+  color: rgb(114, 13, 168);
   text-transform: uppercase;
   border-radius: 20px;
   padding: 20px;
 }
 
 .tituloImportante1 {
-  color: rgba(255, 255, 255, 0.857);
+  color: rgb(0, 0, 0);
   font-size: medium;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
@@ -336,7 +335,7 @@ footer a:visited {
 }
 
 .tituloImportante2 {
-  color: #c4b29c;
+  color: rgb(0, 0, 0);
   border: 2px rgba(255, 255, 255, 0.237) dotted;
   font-size: large;
   font-family: "Courier New", Courier, monospace;
@@ -345,7 +344,7 @@ footer a:visited {
 }
 
 .tituloImportante3 {
-  color: rgba(255, 201, 119, 0.857);
+  color: rgb(99, 24, 140);
   font-size: x-large;
   font-weight: bold;
   text-transform: uppercase;
@@ -372,17 +371,17 @@ footer a:visited {
 }
 
 .tituloPequeño1 {
-  color: rgb(241, 235, 200);
+  color: rgb(32, 4, 80);
   font-size: x-small;
 }
 
 .tituloPequeño2 {
-  color: rgba(106, 230, 205, 0.689);
+  color: rgb(32, 4, 80);
   font-size: small;
 }
 
 .tituloPequeño3 {
-  color: rgba(210, 153, 54, 0.689);
+  color: rgb(32, 4, 80);
   font-size: small;
 }
 
@@ -392,7 +391,7 @@ footer a:visited {
 }
 
 .text-muted1 {
-  color: wheat;
+  color: rgb(32, 4, 80);
 }
 
 .estiloTextoContacto1 {
@@ -465,7 +464,8 @@ footer a:visited {
 .imagen-limitada1 {
   width: 90%;
   height: auto;
-  padding: 0 40px 0 40px;
+  border-radius: 100px;
+  padding: 0 30px 0 30px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.201);
 }
 
@@ -633,8 +633,9 @@ footer a:visited {
 .card2 {
   font-size: small;
   font-weight: bold;
-  border: 1px dotted white;
   border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(123, 0, 211, 0.155);
 }
 
 .card3 {
@@ -742,7 +743,7 @@ footer a:visited {
   font-size: small;
   border: none;
   border-radius: 10px;
-  background-color: rgba(205, 143, 43, 0.6156862745);
+  background-color: rgba(135, 43, 205, 0.6156862745);
   color: rgba(254, 254, 232, 0.665);
   cursor: pointer;
   transition: all 0.3s ease;
@@ -765,8 +766,8 @@ footer a:visited {
   font-size: large;
   border: none;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.862745098);
-  color: rgba(254, 254, 232, 0.665);
+  background-color: #20055a;
+  color: rgb(255, 255, 255);
 }
 
 .botonSeguirComprando1:hover {
@@ -799,7 +800,7 @@ footer a:visited {
   font-size: small;
   border: none;
   border-radius: 10px;
-  background-color: rgba(77, 75, 22, 0.5764705882);
+  background-color: rgba(42, 18, 72, 0.431372549);
   color: rgba(254, 254, 232, 0.665);
   cursor: pointer;
   transition: all 0.3s ease;
@@ -807,7 +808,7 @@ footer a:visited {
 }
 
 .btn:hover {
-  background-color: rgba(156, 122, 48, 0.563);
+  background-color: rgba(105, 32, 111, 0.443);
   color: #ffffff;
   border: none;
   animation: shake 0.5s ease;
@@ -878,13 +879,13 @@ footer a:visited {
 }
 
 .tituloPrecio1 {
-  color: rgba(255, 221, 0, 0.825);
-  font-size: medium;
+  color: #79797a;
+  font-size: small;
 }
 
 .tituloPrecioCarrito {
   text-decoration: dotted;
-  color: rgb(172, 45, 22);
+  color: #9900ff;
   font-size: xx-large;
 }
 
@@ -910,7 +911,7 @@ footer a:visited {
 
 .form-select {
   background-color: rgba(97, 99, 89, 0.662745098);
-  color: rgba(255, 191, 0, 0.668);
+  color: rgb(255, 255, 255);
   border: none;
   padding: 0px;
 }
@@ -918,7 +919,7 @@ footer a:visited {
 /* Estilos para centrar y cambiar el color de fondo de las opciones de los selects */
 select.form-select option {
   text-align: center;
-  background-color: #3e2c00;
+  background-color: rgba(55, 45, 60, 0.8078431373);
   color: rgb(255, 255, 255);
 }
 

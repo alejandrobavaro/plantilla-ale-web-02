@@ -19,10 +19,13 @@
 }
 
 .card2 {
+ // background: linear-gradient(rgba(241, 241, 241, 0.173), rgba(136, 0, 255, 0.122));
   font-size: small;
   font-weight: bold;
-  border: 1px dotted white;
-  border-radius: 20px;
+  //border: 1px solid rgb(0, 0, 0);
+ border-radius: 20px;
+ padding: 20px;
+ box-shadow: 0 0 20px rgba(123, 0, 211, 0.155);
 }
 
 .card3 {
