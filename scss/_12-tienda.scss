@@ -17,16 +17,17 @@
   // border: 1px solid white;
   border-radius: 20px;
   background-color: transparent;
-  box-shadow: 0 0 20px wheat;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.616);
 }
 
 .mini-carrito2 {
   // border: 1px solid rgba(255, 255, 255, 0.406);
   border-radius: 20px;
   background-color: transparent;
-  box-shadow: 0 0 5px wheat;
-  padding: 20px;
+  box-shadow: 0 0 20px rgba(238, 219, 255, 0.616);
+  // padding: 20px;
 }
+
 
 .listaMiniCarrito3 {
   background-color: transparent;
@@ -140,7 +141,7 @@ select.form-select option {
 
 .categoria-lista a {
   text-decoration: none;
-  color: #9900ff;
+  color: #611a90;
   padding: 5px 10px;
   border: 1px solid transparent; /* Borde transparente inicialmente */
   border-radius: 5px;

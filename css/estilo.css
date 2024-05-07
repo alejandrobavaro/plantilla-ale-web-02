@@ -13,6 +13,15 @@
     font-size: 18px; /* Tamaño de fuente para el menú principal */
   }
 }
+/* Estilos para dispositivos con una resolución de 360x740 (formato celular) */
+@media (max-width: 360px) {
+  .card-container,
+  .productos-container {
+    /* Cambia el display a bloque para que se coloquen uno debajo del otro */
+    display: block;
+    /* También puedes agregar otros estilos según sea necesario */
+  }
+}
 /* Media query para pantallas menores o iguales a 767px */
 @media screen and (max-width: 767px) {
   .row-cols-1 {
@@ -394,6 +403,7 @@ footer a:visited {
 .tituloPequeño2 {
   color: rgb(32, 4, 80);
   font-size: small;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 .tituloPequeño3 {
@@ -762,23 +772,22 @@ footer a:visited {
 }
 
 /*----------------Botón "Vaciar Carrito"----------------*/
-.btnVaciarCarrito {
+#btnVaciarCarrito {
   padding: 8px 16px;
-  font-size: small;
+  font-size: xx-small;
   border: none;
   border-radius: 10px;
-  background-color: rgba(135, 43, 205, 0.6156862745);
-  color: rgba(254, 254, 232, 0.665);
+  background-color: rgba(42, 18, 72, 0.431372549);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transition: all 0.3s ease;
-  float: right;
-  margin-top: 10px;
 }
 
-.btnVaciarCarrito:hover {
-  background-color: rgba(156, 156, 48, 0.754);
+#btnVaciarCarrito:hover {
+  background-color: rgba(105, 32, 111, 0.443);
   color: #ffffff;
   border: none;
+  animation: shake 0.5s ease;
 }
 
 /*----------------Botón Encargar----------------*/
@@ -936,14 +945,13 @@ footer a:visited {
 .mini-carrito {
   border-radius: 20px;
   background-color: transparent;
-  box-shadow: 0 0 20px wheat;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.616);
 }
 
 .mini-carrito2 {
   border-radius: 20px;
   background-color: transparent;
-  box-shadow: 0 0 5px wheat;
-  padding: 20px;
+  box-shadow: 0 0 20px rgba(238, 219, 255, 0.616);
 }
 
 .listaMiniCarrito3 {
@@ -1048,7 +1056,7 @@ select.form-select option {
 
 .categoria-lista a {
   text-decoration: none;
-  color: #9900ff;
+  color: #611a90;
   padding: 5px 10px;
   border: 1px solid transparent; /* Borde transparente inicialmente */
   border-radius: 5px;

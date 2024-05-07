@@ -51,24 +51,26 @@
 }
 
 /*----------------Botón "Vaciar Carrito"----------------*/
-.btnVaciarCarrito {
+#btnVaciarCarrito {
   padding: 8px 16px;
-  font-size: small;
+  font-size: xx-small;
   border: none;
   border-radius: 10px;
-  background-color: #872bcd9d;
-  color: rgba(254, 254, 232, 0.665);
+  background-color: #2a12486e;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   transition: all 0.3s ease;
-  float: right;
-  margin-top: 10px;
+  // float: right;
+  // margin-top: 10px;
 }
 
-.btnVaciarCarrito:hover {
-  background-color: rgba(156, 156, 48, 0.754);
+#btnVaciarCarrito:hover {
+  background-color: rgba(105, 32, 111, 0.443);
   color: #ffffff;
   border: none;
+  animation: shake 0.5s ease;
 }
+
 
 /*----------------Botón Encargar----------------*/
 .botonEncargar {

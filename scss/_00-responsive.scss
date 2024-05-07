@@ -18,6 +18,16 @@
 
 //-----------------------------------TIENDA Y MINI CARRITO------------------//
 
+/* Estilos para dispositivos con una resolución de 360x740 (formato celular) */
+@media (max-width: 360px) {
+  .card-container,
+  .productos-container {
+    /* Cambia el display a bloque para que se coloquen uno debajo del otro */
+    display: block;
+    /* También puedes agregar otros estilos según sea necesario */
+  }
+}
+
 
 
 
